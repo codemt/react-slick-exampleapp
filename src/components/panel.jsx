@@ -27,6 +27,8 @@ class Panel extends Component {
                             <div className="img" ><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg" /></div>
                             <p style={{paddingTop: 10}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                             <h2>Tejas Kor </h2>
+                            <p> UX/UI Designer , Board Infinity </p>
+                            <h2> LOGO </h2>
                         </div>
                     </div>
                 </div>
