@@ -2,17 +2,21 @@ import React, { Component } from 'react'
 import Slider from "react-slick";
 import '../assets/css/slider.css';
 import '../assets/css/testimonials.css';
-import image1 from '../assets/images/testimonials/test.jpg';
-class Panel extends Component {
+class Panel2 extends Component {
   render() {
     var settings = {
-        dots: true,
+
+        className: "center",
+        centerMode: true,
         infinite: true,
-        speed: 500,
+        centerPadding: "100px",
         slidesToShow: 1,
-        slidesToScroll: 1
+        speed: 500,
+        dots:true
       };
     return (
+
+        <div>
         <Slider {...settings}>
         <div>
 
@@ -26,7 +30,7 @@ class Panel extends Component {
                                 </ul> */ }
                                 <div id="testim-content" className="cont" >
                                     <div className="active">
-                                        <div className="img" ><img src={image1} alt="" /></div>
+                                        <div className="img" ><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg" alt="" /></div>
                                         <p style={{paddingTop: 10}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                         <h2>Tejas Kor </h2>
                                         <p> UX/UI Designer , Board Infinity </p>
@@ -86,7 +90,8 @@ class Panel extends Component {
               </div>
         </div>
       </Slider>
+      </div>
     )
   }
 }
-export default Panel;
+export default Panel2;
