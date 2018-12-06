@@ -2,14 +2,13 @@ import React, { Component } from 'react'
 import Slider from "react-slick";
 import '../assets/css/slider.css';
 import '../assets/css/testimonials.css';
-import image1 from '../assets/images/testimonials/test.jpg';
 class Panel extends Component {
   render() {
     var settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       };
     return (
@@ -26,11 +25,11 @@ class Panel extends Component {
                                 </ul> */ }
                                 <div id="testim-content" className="cont" >
                                     <div className="active">
-                                        <div className="img" ><img src={image1} alt="" /></div>
+                                        <div className="img" ><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg"  alt="" /></div>
                                         <p style={{paddingTop: 10}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                         <h2>Tejas Kor </h2>
                                         <p> UX/UI Designer , Board Infinity </p>
-                                        <h2> LOGO </h2>
+                                        <h2> LOGO </h2> 
                                     </div>
                                 </div>
                             </div>
@@ -49,13 +48,13 @@ class Panel extends Component {
                                           <li className="dot"></li>
                                       </ul> */ }
                                       <div id="testim-content" className="cont" >
-                                          <div className="active">
-                                              <div className="img" ><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg" alt="" /></div>
-                                              <p style={{paddingTop: 10}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                              <h2>Tejas Kor </h2>
-                                              <p> UX/UI Designer , Board Infinity </p>
-                                              <h2> LOGO </h2>
-                                          </div>
+                                      <div className="active">
+                                      <div className="img" ><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg"  alt="" /></div>
+                                     <p style={{paddingTop: 10}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                      <h2>Tejas Kor </h2>
+                                      <p> UX/UI Designer , Board Infinity </p>
+                                      <h2> LOGO </h2> 
+                                  </div>
                                       </div>
                                   </div>
                               </div>
@@ -72,13 +71,13 @@ class Panel extends Component {
                                     <li className="dot"></li>
                                 </ul> */ }
                                 <div id="testim-content" className="cont" >
-                                    <div className="active">
-                                        <div className="img" ><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg" alt="" /></div>
-                                        <p style={{paddingTop: 10}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                        <h2>Tejas Kor </h2>
-                                        <p> UX/UI Designer , Board Infinity </p>
-                                        <h2> LOGO </h2>
-                                    </div>
+                                <div className="active">
+                                <div className="img" ><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg"  alt="" /></div>
+                                <p style={{paddingTop: 10}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                <h2>Tejas Kor </h2>
+                                <p> UX/UI Designer , Board Infinity </p>
+                                <h2> LOGO </h2> 
+                                 </div>
                                 </div>
                             </div>
                         </div>

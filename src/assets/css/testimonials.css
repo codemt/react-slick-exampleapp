@@ -56,5 +56,25 @@
       bottom: 0px;
     }
   }
-  
-  
+  .nav .nav-justified {
+
+    width:50%
+
+}
+.slides {
+  position: relative;
+
+}
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+  }
+  .slick-prev {
+    left: 5%;
+  }
+  .slick-next {
+    right: 5%;
+  }
+  .slick-slide.slick-center img {
+    transform: scale(1.1);
+}
