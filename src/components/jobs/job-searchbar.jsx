@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import '../../assets/css/jobs/searchbox.css'
+import SelectBox from '../reactselect';
  class JobSearchBar extends Component {
   render() {
     return (
         <section class="paddingTop-60 paddingBottom-100">
-                <div class="container">
+                <div class="">
                 { /* ROW -1 
                         <div class="row">
                         <div class="col-12 z-index-10" data-offset-top-md="-120">
@@ -61,6 +62,7 @@ import '../../assets/css/jobs/searchbox.css'
                             <option value="3">2</option>
                             <option value="4">3</option>
                         </select>
+                       {/* <SelectBox /> */ }
                         <select class="form-control rounded-left-0 rounded-right-0" style={{marginRight:'10px'}}>
                             <option selected disabled default> Location </option>
                             <option value="1">Mumbai</option>
