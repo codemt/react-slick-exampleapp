@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Select from 'react-select';
-import '../assets/css/reactselect.css'
- class ReactSelect extends Component {
+import '../../../assets/css/reactselect.css'
+ class DateSelect extends Component {
 
 
     state = {
@@ -15,9 +15,9 @@ import '../assets/css/reactselect.css'
 
   render() {
     const options = [
-        { value: 'chocolate', label:'Chocolate' ,className:'optionStyles'},
-        { value: 'strawberry', label: 'Strawberry',className : 'optionStyles' },
-        { value: 'vanilla', label: 'Vanilla','className':'optionStyles' }
+        { value: 'Today', label:'Today' ,className:'optionStyles'},
+        { value: 'Tomorrow', label: 'Tomorrow',className : 'optionStyles' },
+        { value: 'Yesterday', label: 'Yesterday','className':'optionStyles' }
       ];
       const selectedOption = this.state.selectedOption;
     return (
@@ -26,7 +26,7 @@ import '../assets/css/reactselect.css'
         value={selectedOption}
         onChange={this.handleChange}
         options={options}
-        placeholder="Experience"
+        placeholder="Date"
         classNamePrefix="react-select"
       />
        
@@ -34,4 +34,4 @@ import '../assets/css/reactselect.css'
     )
   }
 }
-export default ReactSelect
+export default DateSelect

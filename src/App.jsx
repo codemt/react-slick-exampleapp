@@ -6,7 +6,8 @@ import './App.css';
 //import NewAuthors from './components/new_authors';
 //import SelectBox from './components/selectbox';
 //import ReactSelect from './components/reactselect';
-import JobSearchBar from './components/jobs/job-searchbar';
+//import JobSearchBar from './components/jobs/job-searchbar';
+import Job2 from './components/job2/searchbox';
 //import Mentors from './components/mentors';
 // import Panel4 from './components/panel4';
 // import Panel3 from './components/panel3';
@@ -19,7 +20,7 @@ class App extends Component {
      { /*  <Panel2 /> */ }
     { /*  <Mentors /> */ }
       { /*  <Authors /> */ }
-      <JobSearchBar />
+      <Job2 />
       </div>
     );
   }

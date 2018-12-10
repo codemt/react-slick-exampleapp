@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import '../../assets/css/jobs/searchbox.css'
 //import SelectBox from '../reactselect';
-import SelectExperience from './selectboxs/experience';
- class JobSearchBar extends Component {
+import SelectExperience from '../jobs/selectboxs/experience'
+import LocationSelect from '../jobs/selectboxs/location';
+import JobTypeSelect from '../jobs/selectboxs/jobtype';
+import DateSelect from '../jobs/selectboxs/date';
+ class Job2 extends Component {
   render() {
     return (
         <section class="paddingTop-60 paddingBottom-100">
@@ -47,47 +50,23 @@ import SelectExperience from './selectboxs/experience';
                     <div class="row">
                     <div class="col-12 z-index-10" data-offset-top-md="-120">
                     <div class="input-group bg-white rounded p-5 padding-y-md-50 shadow-v2">
-                    <div class=" col-6 input-group prepend">
+                    <div class=" col-4 input-group prepend">
                        
                     <i class="fas fa-align-justify" style={{marginTop:'10px',marginRight:'10px'}}></i>
                     <input type="text" class="form-control" placeholder="By keywords,designation,skills .." />
                        
                         
                     </div>
-                    <div class="col-6 input-group prepend">
+                    <div class="col-8 input-group prepend">
 
-                        <select class="form-control rounded-left-0 rounded-right-0" style={{marginRight:'10px'}}>
-                            <option selected disabled default> Any Experience </option>
-                            <option value="1">0</option>
-                            <option value="2">1</option>
-                            <option value="3">2</option>
-                            <option value="4">3</option>
-                        </select>
                        {/* <SelectBox /> */ }
                          <SelectExperience /> 
-                        <select class="form-control rounded-left-0 rounded-right-0" style={{marginRight:'10px'}}>
-                            <option selected disabled default> Location </option>
-                            <option value="1">Mumbai</option>
-                            <option value="2">Chennai</option>
-                            <option value="3">Bangalore</option>
-                            <option value="4">NCR</option>
-                        </select>
-                    <select class="form-control rounded-left-0 rounded-right-0" style={{marginRight:'10px'}}>
-                        <option selected disabled default> Job Type  </option>
-                        <option value="1"></option>
-                        <option value="2">Top rated</option>
-                        <option value="3">Newest</option>
-                        <option value="4">Top authors</option>
-                    </select>
-                <select class=" form-control rounded-left-0 rounded-right-0" style={{marginRight:'10px'}}>
-                    <option class="nav-link dropdown-toggle" selected disabled default> Date </option>
-                    <option value="1">Best Selling</option>
-                    <option value="2">Top rated</option>
-                    <option value="3">Newest</option>
-                    <option value="4">Top authors</option>
-                </select>
+                         <LocationSelect />
+                         <JobTypeSelect />
+                         <DateSelect />
+              
                 
-                        <div class="input-group-append">
+                        <div class="input-group-append" style={{marginLeft:'10px'}}>
                             <button class="btn btn-primary">Search</button>
                         </div>
                             
@@ -105,4 +84,4 @@ import SelectExperience from './selectboxs/experience';
     )
   }
 }
-export default JobSearchBar;
+export default Job2;
