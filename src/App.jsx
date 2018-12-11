@@ -9,11 +9,9 @@ import './App.css';
 //import JobSearchBar from './components/jobs/job-searchbar';
 import Job2 from './components/job2/searchbox';
 import JobsList2 from './components/jobslist2';
-//import JobsList from './components/jobslist';
-//import Mentors from './components/mentors';
-// import Panel4 from './components/panel4';
-// import Panel3 from './components/panel3';
-// import Panel5 from './components/panel5';
+import NavBar from './components/navbar';
+
+
 
 class App extends Component {
   render() {
@@ -21,9 +19,16 @@ class App extends Component {
       <div className="App">
      { /*  <Panel2 /> */ }
     { /*  <Mentors /> */ }
-      { /*  <Authors /> */ }
-      <Job2 />
+      { /*  <Authors /> 
+      
+             <Job2 />
       <JobsList2 />
+         
+           <DropDown />
+      
+      */ }
+      <NavBar />
+       
       </div>
     );
   }

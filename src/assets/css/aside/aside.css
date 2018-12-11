@@ -1,4 +1,4 @@
-@media screen and (min-width: 992px) 
+@media (min-width: 992px) 
 {
     .order-lg-1 {
     -webkit-box-ordinal-group: 2;
