@@ -11,13 +11,13 @@ import '../../assets/css/navbar/navbar.scss'
               
     
                 <li className="nav-item nav-item__has-dropdown">
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#">pages</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/">pages</a>
                   <div className="dropdown-menu">
                       <ul className="list-unstyled">
-                       <li><a className="nav-link__list" href="page-about.html">About</a></li>
+                       <li><a className="nav-link__list" href="/">About</a></li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Events </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Events </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-events.html"> Events </a></li>
@@ -39,7 +39,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> User </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> User </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-login.html"> Login </a></li>
@@ -54,7 +54,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Notice </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Notice </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-notice.html"> Notices </a></li>
@@ -64,7 +64,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Faculty </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Faculty </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-sp-faculty.html"> Faculty </a></li>
@@ -76,7 +76,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Career </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Career </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-career.html"> Careers </a></li>
