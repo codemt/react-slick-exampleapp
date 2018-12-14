@@ -1,0 +1,24 @@
+.star1 {
+    font-size: 128px;
+    color:white;
+    /* Some sort of border */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.star1:hover {
+
+        color: #FFBC42;
+
+}
+.star2 {
+    font-size: 128px;
+    color:white;
+    /* Some sort of border */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.star2:hover {
+
+        color: #FFBC42;
+
+}

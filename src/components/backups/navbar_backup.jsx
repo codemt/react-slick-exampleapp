@@ -45,7 +45,7 @@ import '../../assets/css/navbar/navbar.scss'
                 </li>
     
                 <li className="nav-item nav-item__has-dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Courses</a>
+                    <a className="nav-link dropdown-toggle" href="/" data-toggle="dropdown">Courses</a>
                     <ul className="dropdown-menu">
                       <li><a href="page-sp-all-courcess.html" className="nav-link__list">All Courses</a></li>
                       <li><a href="page-sp-all-courcess-list.html" className="nav-link__list">Courses List</a></li>
@@ -57,13 +57,13 @@ import '../../assets/css/navbar/navbar.scss'
                 </li>
     
                 <li className="nav-item nav-item__has-dropdown">
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#">pages</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/">pages</a>
                   <div className="dropdown-menu">
                       <ul className="list-unstyled">
                        <li><a className="nav-link__list" href="page-about.html">About</a></li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Events </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Events </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-events.html"> Events </a></li>
@@ -73,7 +73,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Support </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Support </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-help-&-support.html"> Support </a></li>
@@ -85,7 +85,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> User </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> User </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-login.html"> Login </a></li>
@@ -100,7 +100,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Notice </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Notice </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-notice.html"> Notices </a></li>
@@ -110,7 +110,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Faculty </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Faculty </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-sp-faculty.html"> Faculty </a></li>
@@ -122,7 +122,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                        <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Career </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Career </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="page-career.html"> Careers </a></li>
@@ -151,12 +151,12 @@ import '../../assets/css/navbar/navbar.scss'
                 </li>
     
                  <li className="nav-item nav-item__has-dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Blog </a>
+                    <a className="nav-link dropdown-toggle" href="/" data-toggle="dropdown"> Blog </a>
                     <div className="dropdown-menu">
                       <ul className="list-unstyled">
     
                          <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Layout </a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Layout </a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="blog-standard.html"> Standard </a></li>
@@ -168,7 +168,7 @@ import '../../assets/css/navbar/navbar.scss'
                         </li>
     
                          <li className="nav-item__has-dropdown">
-                          <a className="nav-link__list dropdown-toggle" href="#" data-toggle="dropdown"> Single Post</a>
+                          <a className="nav-link__list dropdown-toggle" href="/" data-toggle="dropdown"> Single Post</a>
                           <div className="dropdown-menu">
                             <ul className="list-unstyled">
                               <li><a className="nav-link__list" href="blog-single.html"> Image </a></li>
@@ -185,7 +185,7 @@ import '../../assets/css/navbar/navbar.scss'
                   </li>
     
                  <li className="nav-item nav-item__has-dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Shop </a>
+                    <a className="nav-link dropdown-toggle" href="/" data-toggle="dropdown"> Shop </a>
                     <div className="dropdown-menu">
                       <ul className="list-unstyled">
                       <li>
@@ -209,7 +209,7 @@ import '../../assets/css/navbar/navbar.scss'
                   </li>
     
                 <li className="nav-item nav-item__has-megamenu">
-                  <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Elements</a>
+                  <a className="nav-link dropdown-toggle" href="/" data-toggle="dropdown">Elements</a>
                   <div className="dropdown-menu p-2 p-md-4">
                     <div className="row mx-0">
                       <div className="col-md-3">
@@ -273,17 +273,17 @@ import '../../assets/css/navbar/navbar.scss'
           <div className="nav-toolbar">
             <ul className="navbar-nav ec-nav__navbar">
               <li className="nav-item nav-item__has-dropdown">
-                <a className="nav-link dropdown-toggle no-caret" href="#" data-toggle="dropdown"><i className="ti-shopping-cart"></i></a>
+                <a className="nav-link dropdown-toggle no-caret" href="/" data-toggle="dropdown"><i className="ti-shopping-cart"></i></a>
                 <ul className="dropdown-menu dropdown-cart" aria-labelledby="navbarDropdown">
                   <li className="dropdown-cart__item">
                     <div className="media">
                       <img className="dropdown-cart__img" src="assets/img/shop/products/2.jpg" alt="" />
                       <div className="media-body pl-3">
-                        <a href="#" className="h6">Quick intro to Python</a>
+                        <a href="/" className="h6">Quick intro to Python</a>
                         <span className="text-primary">$199.00</span>
                       </div>
                     </div>
-                    <a href="#" className="dropdown-cart__item-remove">
+                    <a href="/" className="dropdown-cart__item-remove">
                       <i className="ti-close"></i>
                     </a>
                   </li>
@@ -291,11 +291,11 @@ import '../../assets/css/navbar/navbar.scss'
                     <div className="media">
                       <img className="dropdown-cart__img" src="assets/img/shop/products/4.jpg" alt="" />
                       <div className="media-body pl-3">
-                        <a href="#" className="h6">Gentel intro to C++</a>
+                        <a href="/" className="h6">Gentel intro to C++</a>
                         <span className="text-primary">$45.00</span>
                       </div>
                     </div>
-                    <a href="#" className="dropdown-cart__item-remove">
+                    <a href="/" className="dropdown-cart__item-remove">
                       <i className="ti-close"></i>
                     </a>
                   </li>
@@ -303,7 +303,7 @@ import '../../assets/css/navbar/navbar.scss'
                     <div className="media">
                       <img className="dropdown-cart__img" src="assets/img/shop/products/3.jpg" alt="" />
                       <div className="media-body pl-3">
-                        <a href="#" className="h6">Programming 101</a>
+                        <a href="/" className="h6">Programming 101</a>
                         <span className="text-primary">$79.00</span>
                       </div>
                     </div>

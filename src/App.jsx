@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import CompanyCard from './components/companycard';
 //import Panel from './components/panel';
 //import Panel2 from './components/panel2';
 //import Authors from './components/authors';
@@ -7,9 +8,10 @@ import './App.css';
 //import SelectBox from './components/selectbox';
 //import ReactSelect from './components/reactselect';
 //import JobSearchBar from './components/jobs/job-searchbar';
-import Job2 from './components/job2/searchbox';
-import JobsList2 from './components/jobslist2';
-import NavBar from './components/navbar';
+//import Job2 from './components/job2/searchbox';
+//import JobsList2 from './components/jobslist2';
+// import NavBar from './components/navbar';
+//import JobPage from './components/jobpage';
 
 
 
@@ -23,11 +25,14 @@ class App extends Component {
       
              <Job2 />
       <JobsList2 />
-         
+             <NavBar />
            <DropDown />
-      
+               <Job2 />
+                 <NavBar />
+                      <JobPage />
       */ }
-      <NavBar />
+       
+          <CompanyCard />
        
       </div>
     );
