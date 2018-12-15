@@ -7,18 +7,22 @@ class Panel extends Component {
     var settings = {
         dots: true,
         infinite: true,
+        arrows:true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       };
     return (
+
+        <div>
+        <h2>Swipe To Slide</h2>
         <Slider {...settings}>
         <div>
 
               <div className="container-fluid">
                     <div className="row">
                         <div className="col testim" id="testim">
-                            <div className="wrap"><span id="right-arrow" className="arrow right fa fa-chevron-right"></span><span id="left-arrow" className="arrow left fa fa-chevron-left"></span>
+                            <div className="wrap">{/*<span id="right-arrow" className="arrow right fa fa-chevron-right"></span><span id="left-arrow" className="arrow left fa fa-chevron-left"></span> */}
                                 {/*<ul id="testim-dots" className="dots">
                                     <li className="dot active"></li>
                                     <li className="dot"></li>
@@ -42,7 +46,7 @@ class Panel extends Component {
                     <div className="container-fluid">
                           <div className="row">
                               <div className="col testim" id="testim">
-                                  <div className="wrap"><span id="right-arrow" className="arrow right fa fa-chevron-right"></span><span id="left-arrow" className="arrow left fa fa-chevron-left"></span>
+                                  <div className="wrap">{/*<span id="right-arrow" className="arrow right fa fa-chevron-right"></span><span id="left-arrow" className="arrow left fa fa-chevron-left"></span> */}
                                       {/*<ul id="testim-dots" className="dots">
                                           <li className="dot active"></li>
                                           <li className="dot"></li>
@@ -85,6 +89,7 @@ class Panel extends Component {
               </div>
         </div>
       </Slider>
+      </div>
     )
   }
 }

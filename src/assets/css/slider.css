@@ -236,5 +236,31 @@
       line-height: 25px;
     }
   }
+  .slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+  }
+
+  .slides {
+    position: relative;
+   
+  
+  }
+
+  .slick-prev:before {
+
+      color: grey;
+      padding-left: 150px;
+
+  }
+.slick-next:before {
+
+  color: grey;
+  margin-left: -250px;
+}
   
   

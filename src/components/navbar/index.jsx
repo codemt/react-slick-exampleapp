@@ -4,14 +4,14 @@ import '../../assets/css/navbar/navbar.scss'
   render() {
     return (
       <nav className="ec-nav sticky-top bg-white">
-      <div className="container">
+      <div className="container" style={{marginLeft:'100px'}}>
         <div className="navbar p-0 navbar-expand-lg">
           <div className="collapse navbar-collapse when-collapsed" id="ec-nav__collapsible">
             <ul className="nav navbar-nav ec-nav__navbar ml-auto">  
               
     
                 <li className="nav-item nav-item__has-dropdown">
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/">pages</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" >pages</a>
                   <div className="dropdown-menu">
                       <ul className="list-unstyled">
                        <li><a className="nav-link__list" href="/">About</a></li>
