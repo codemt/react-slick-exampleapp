@@ -15,9 +15,9 @@ import '../../../assets/css/reactselect.css'
 
   render() {
     const options = [
-        { value: 'Sales', label:'Sales' ,className:'optionStyles'},
-        { value: 'IT', label: 'IT',className : 'optionStyles' },
-        { value: 'Marketing', label: 'Marketing','className':'optionStyles' }
+        { value: 'Sales', label:'Sales' },
+        { value: 'IT', label: 'IT' },
+        { value: 'Marketing', label: 'Marketing' }
       ];
       const selectedOption = this.state.selectedOption;
     return (

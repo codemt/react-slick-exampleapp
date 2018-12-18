@@ -15,9 +15,9 @@ import '../../../assets/css/reactselect.css'
 
   render() {
     const options = [
-        { value: 'Today', label:'Today' ,className:'optionStyles'},
-        { value: 'Tomorrow', label: 'Tomorrow',className : 'optionStyles' },
-        { value: 'Yesterday', label: 'Yesterday','className':'optionStyles' }
+        { value: 'Today', label:'Today' },
+        { value: 'Tomorrow', label: 'Tomorrow'},
+        { value: 'Yesterday', label: 'Yesterday' }
       ];
       const selectedOption = this.state.selectedOption;
     return (

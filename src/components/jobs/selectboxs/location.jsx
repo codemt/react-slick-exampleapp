@@ -15,9 +15,9 @@ import '../../../assets/css/reactselect.css'
 
   render() {
     const options = [
-        { value: 'mumbai', label:'mumbai' ,className:'optionStyles'},
-        { value: 'delhi', label: 'delhi',className : 'optionStyles' },
-        { value: 'chennai', label: 'chennai','className':'optionStyles' }
+        { value: 'mumbai', label:'mumbai' },
+        { value: 'delhi', label: 'delhi' },
+        { value: 'chennai', label: 'chennai' }
       ];
       const selectedOption = this.state.selectedOption;
     return (

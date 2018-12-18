@@ -1,53 +1,149 @@
 import React, { Component } from 'react'
-import '../../assets/css/jobs/searchoptions.css'
+import Select from 'react-select';
  class JobSearchOptions extends Component {
+
+
+  constructor(props){
+
+      super(props);
+      this.state = {
+
+        dateSelected: null,
+        experienceSelected : null,
+        jobtypeSelected : null,
+        locationSelected : null
+      }
+
+  }
+  
+
+  dateChange = (date) => {
+    this.setState({ 
+      
+        dateSelected : date,
+      
+    });
+    console.log(`Option selected:`, date);
+  }
+
+
+  experienceChange = (experience) => {
+    this.setState({
+
+
+       experienceSelected : experience,
+      
+      
+      });
+    console.log(`Option selected:`, experience);
+  }
+
+  jobtypeChange = (jobtype) => {
+    this.setState({ 
+
+      jobtypeSelected : jobtype,
+    
+    });
+    console.log(`Option selected:`, jobtype);
+  
+  }
+
+  locationChange = (location) => {
+    this.setState({ 
+
+      locationSelected : location,
+
+    });
+    console.log(`Option selected:`, location);
+   
+  }
+
+  onSubmit = (e) => {
+
+
+      e.preventDefault();
+      let location = this.state.locationSelected.value;
+      let date = this.state.dateSelected.value;
+      let experience = this.state.experienceSelected.value;
+      let jobtype = this.state.jobtypeSelected.value;
+      //alert(this.state.dateSelected.value);
+
+        console.log(location , date, experience , jobtype );
+      // alert(location + date + experience + jobtype );
+
+
+  }
+
+
+
   render() {
+
+
+    const dateOptions = [
+      { value: 'Today', label:'Today' },
+      { value: 'Tomorrow', label: 'Tomorrow'},
+      { value: 'Yesterday', label: 'Yesterday' }
+    ];
+    const experienceOptions = [
+      { value: '0', label:'0'},
+      { value: '1', label: '1' },
+      { value: '2', label: '2'}
+    ];
+    const jobtypeOptions = [
+      { value: 'Full Time', label:'Full Time' },
+      { value: 'Part TIme', label: 'Part Time' },
+      { value: 'Internship', label: 'Internship' }
+    ];
+
+    const locationOptions = [
+      { value: 'mumbai', label:'mumbai' },
+      { value: 'delhi', label: 'delhi' },
+      { value: 'chennai', label: 'chennai' }
+    ];
+
+    const date = this.state.dateSelected;
+    const experience = this.state.experienceSelected;
+    const jobtype = this.state.jobtype;
+    const location = this.state.location;
     return (
-        <section class="py-3 position-relative shadow-v1">
-        <div class="container">
-          <form class="row">
-            <div class="col-md-6 my-2">
-              <ul class="list-inline">
-                <li class="list-inline-item my-2">
-                  <select class="form-control">
-                    <option selected default>Select Category</option>
-                    <option>UI/UX design</option>
-                    <option>Web app</option>
-                    <option>React</option>
-                    <option>Game development</option>
-                  </select>
-                </li>
-                <li class="list-inline-item my-2">
-                  <select class="form-control">
-                    <option selected default>Filter</option>
-                    <option>Best selling</option>
-                    <option>Newest</option>
-                    <option>Top rated</option>
-                    <option>Low price</option>
-                    <option>High price</option>
-                  </select>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-6 my-2 text-md-right">
-             <div class="d-inline-flex justify-md-content-end">
-              <select class="form-control my-2">
-                <option selected default>items per page</option>
-                <option>8</option>
-                <option>12</option>
-                <option>16</option>
-                <option>20</option>
-                <option>24</option>
-              </select> 
-              <div class="d-flex rounded border ml-3 px-2 my-2">
-                <a href="page-sp-all-courcess.html" class="btn px-1"><ti class="ti-layout-grid2"></ti></a>
-                <a href="page-sp-all-courcess-list.html" class="active btn px-1"><ti class="ti-view-list"></ti></a>
-              </div>
-             </div>
-            </div>
-          </form> 
-        </div> 
-      </section>
+        
+         <div>          
+                <Select
+                value={date}
+                onChange={this.dateChange}
+                options={dateOptions}
+                placeholder="Date"
+                classNamePrefix="react-select"
+                />
+
+              <Select
+              value={experience}
+              onChange={this.experienceChange}
+              options={experienceOptions}
+              placeholder="Experience"
+              classNamePrefix="react-select"
+              />
+
+            <Select
+            value={jobtype}
+            onChange={this.jobtypeChange}
+            options={jobtypeOptions}
+            placeholder="Job Types"
+            classNamePrefix="react-select"
+            />
+
+          <Select
+          value={location}
+          onChange={this.locationChange}
+          options={locationOptions}
+          placeholder="Location"
+          classNamePrefix="react-select"
+          />
+
+
+          <button type="submit" onClick={this.onSubmit}> Submit  </button>
+
+        </div>
     )
   }
 }
